@@ -1,7 +1,14 @@
 <?php
 	 $i = 10;
-	var_dump($i);
-	for ($i=0; $i <100 ; $i++) { 
+	
+	for ($i=100; $i > 1 ; $i-=2) { 
 		echo $i;
+		echo "<br>";
+	}
+
+	$i = 1;
+	while ( $i<= 100) {
+		echo "Md. Shamim Miah <br>";
+		$i +=2;
 	}
 ?>
